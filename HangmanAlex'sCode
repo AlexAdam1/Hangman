@@ -5,7 +5,7 @@ public class HangMan {
     public static void main(String[] args) {
         int loop = 0;
         do {
-            String[] animal = {"puppy", "dog", "kitten", "owl", "fox", "racoon", "bear", "horse", "elephant", "lion"};
+            String[] animal = {"puppy", "dog", "kitten", "owl", "fox"};
             String [] sense = {"touch", "smell", "taste", "feel", "hear"};
             String [] city = {"Memphis", "San Diego", "San Francisco", "San Jose", "Dallas"};
             String [] car = {"Porsche", "BMW", "Honda", "Toyota", "Mercedes"};
@@ -39,3 +39,4 @@ public class HangMan {
             }
         }while (loop == 0);
     }
+}
