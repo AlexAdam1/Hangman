@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class HangMan {
+
+    public static void main(String[] args) {
+        String [] key = new String[10];
+        String [] domain = new String[10];
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter difficulty level: 5 for easy and 10 for hard");
+        int difficulty = sc.nextInt();
+        if (difficulty == 5) {
+            for
+        }
+        else if (difficulty == 10) {
+
+        }
+    }
+}
